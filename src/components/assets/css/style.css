@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 10px auto;
+    border: 2px solid #919090;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.conversion_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.select_from, .select_to{
+    display: flex;
+    gap: 20px;
+}
+
+.select_currency{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.input_value{
+    width: 60%;
+    height: 20px;
+    border: #919090 solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.convert_button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.conversion_history{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #919090;
+    padding: 10px;
+    font-size: 18px;
+}
