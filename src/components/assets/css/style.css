@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 50%;
+    width: 20%;
     margin: 10px auto;
     border: 2px solid #919090;
     border-radius: 10px;
@@ -25,18 +25,43 @@ h1{
     gap: 30px;
 }
 
+.title_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.title_currency{
+    width: 20%;
+    padding:0 10px;
+    text-align: center;
+}
+
+.title_value{
+    width: 80%;
+    padding:0 10px;
+    text-align: center;
+}
+
 .select_from, .select_to{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-.select_currency{
-    width: 40%;
+.input_from, .input_to{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
     border-radius: 10px;
+    text-transform: uppercase;
 }
+
 
 .input_value{
-    width: 60%;
+    width: 80%;
     height: 20px;
     border: #919090 solid 2px;
     border-radius: 10px;
@@ -45,6 +70,7 @@ h1{
 }
 
 .convert_button{
+    cursor: pointer;
     padding: 10px;
     font-size: 18px;
     background-color: green;
